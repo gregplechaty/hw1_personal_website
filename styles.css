@@ -1,0 +1,136 @@
+/*css styles sheet */
+
+
+/*proposed color scheme
+
+
+
+BEA99E - light brown
+786763 - dark brown
+0E1443 - dark blue
+95AED1 - blue grey
+9BD3F9 - light blue
+
+
+
+*/
+
+
+
+
+
+body {
+    font-family: 'Rosario', sans-serif;
+    padding-top: 56px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Corben'; 
+}
+
+.colorful {
+    background: #c2e59c; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #c2e59c, #64b3f4); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #c2e59c, #64b3f4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*|| Projects */
+
+.projects-jumbotron {
+    background: url(./images/projects.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.projects-jumbotron-text {
+    color:white;
+    padding-top: 20px;
+}
+
+/*|| Thoughts */
+
+.thoughts-jumbotron {
+    background: url(./images/thoughts.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.thoughts-image-big {
+    height: 360px;
+    width: 640px;
+}
+
+.thoughts-image-small {
+    height: 180px;
+    width: 320px;
+}
+
+.thoughts-main {
+    background-color: #F5FFFA;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.thoughts-small {
+    background-color: #9BD3F9;
+    border: 4px solid #0E1443;
+    padding-top: 15px;
+    text-align: left;
+    margin: 10px;
+}
+
+.thoughts-main-post {
+    text-align: center;
+}
+
+
+/*|| About Me */
+
+.about-jumbotron {
+    background: url(./images/about-brick-wall.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.about-jumbotron-text {
+    font-size: 5.5rem;
+    line-height: 0.5;
+    color: white;
+}
+
+.about-text-box {
+    background-color: #F5FFFA;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    background-color: whitesmoke;
+    color:black;
+    opacity: 0.8;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 26px;
+  }
+
+    /* Background image */
+.background-image {
+    background: url("/images/projects.png") no-repeat scroll 50% 50%;
+}
